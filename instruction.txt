@@ -1,0 +1,9 @@
+GIT CRYPT
+1) Качаем https://github.com/oholovko/git-crypt-windows/releases
+2) Копируем в C:\Program Files\Git\cmd
+3) git-crypt init
+4) Экспортируем ключ в "хранилище" git-crypt export-key D:\secret
+5) В репозитории создаем файл .gitattributes
+	secret filter=git-crypt diff=git-crypt
+	*.key filter=git-crypt diff=git-crypt
+	.env.* filter=git-crypt diff=git-crypt

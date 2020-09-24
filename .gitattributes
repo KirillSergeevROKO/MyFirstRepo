@@ -1,0 +1,2 @@
+FileCheck_config.json filter=git-crypt diff=git-crypt
+test_secret_config filter=git-crypt diff=git-crypt
