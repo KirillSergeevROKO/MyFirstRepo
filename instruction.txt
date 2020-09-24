@@ -7,3 +7,5 @@ GIT CRYPT
 	secret filter=git-crypt diff=git-crypt
 	*.key filter=git-crypt diff=git-crypt
 	.env.* filter=git-crypt diff=git-crypt
+6) Коммитаем изменения 
+7) Для расшифровки  копируем ключ D:\secret
