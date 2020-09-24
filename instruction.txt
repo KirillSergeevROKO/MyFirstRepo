@@ -8,5 +8,8 @@ GIT CRYPT
 	*.key filter=git-crypt diff=git-crypt
 	.env.* filter=git-crypt diff=git-crypt
 6) Коммитаем изменения 
+
+
+
 7) Для расшифровки  копируем ключ D:\secret
 8) Выполняем команду git-crypt unlock D:\secret
