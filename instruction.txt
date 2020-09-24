@@ -13,3 +13,4 @@ GIT CRYPT
 
 7) Для расшифровки  копируем ключ D:\secret
 8) Выполняем команду git-crypt unlock D:\secret
+9) git-crypt status -f
